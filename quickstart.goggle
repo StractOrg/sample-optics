@@ -1,28 +1,11 @@
-! name: Quickstart
-! description: A quick tour of Goggles
-! public: false
-! author: Goggles 101
-
-! Goggles are simple, self-contained text files which can be hosted in Github or
-! Gitlab. These files contain instructions allowing you to tell the search engine how
-! you'd like your results to be ranked. You can target specific URL patterns
-! (and, soon, website titles and other aspects of Web pages) and indicate how
-! their ranking should be altered (e.g. boosted, downranked, or completely
+! Goggles are simple, self-contained text files which can be hosted on any server that responds with a simple HTTP text response.
+! These files contain instructions allowing you to tell the search engine how
+! you'd like your results to be ranked. You can target specific URL, title or body patterns
+! and indicate how their ranking should be altered (e.g. boosted, downranked, or completely
 ! discarded from the results).
 
 ! A Goggle source file consists of instructions, one per line. Empty lines, or
 ! comments (starting with an exclamation mark: '!') are ignored.
-
-! You probably already noticed the header of this file which contains some
-! metadata about your Goggle, such as: name, description, public and author.
-! These are *mandatory*.
-
-! Additionally, you can specify the following optional metadata attributes:
-! * homepage — specifies a homepage URL displayed on your Goggle's profile.
-! * issues — specifies a URL where users can report issues for your Goggle.
-! * transferred_to — Allows to transfer ownership of a Goggle.
-! * avatar —  specifies a *valid* HEX color code for your Goggle.
-! * license — specifies the license of a Goggle's instructions.
 
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
@@ -30,8 +13,7 @@
 /this/is/a/pattern
 
 ! It is also possible to use some limited "globbing" capabilities such as the
-! '*' character which will match zero, one or more characters (note: the number
-! of wildcards allowed in a given instruction is limited):
+! '*' character which will match zero, one or more terms:
 /this/is/*/pattern
 
 ! By default, a pattern can match anywhere in the URL, but there are specific
@@ -61,13 +43,13 @@ $site=example.com
 /blog/$site=example.com
 
 ! Another set of options can be used to indicate what you want your instruction
-! to target. By default any instruction will apply to a URL, but we will add the
-! ability to match other aspects of a page too, in the future:
+! to target. By default any instruction will apply to a URL, but you can
+! also match other aspects of a page:
 !
-! web3$inurl
-! web3$intitle
-! web3$indescription
-! web3$incontent
+! algorithms$inurl
+! algorithms$intitle
+! algorithms$indescription
+! algorithms$incontent
 
 ! Finally, you can specify an 'action', which indicates how the ranking of a
 ! matched result should be changed by your instruction. This is the mechanism
@@ -80,26 +62,24 @@ $site=example.com
 /r/rust/$boost=3
 
 ! The value associated with the option indicate the 'strength' with which you
-! want to alter the ranking (note: that it is currently limited to a maximum
-! value of 10). It can be used to boost results differently, even inside of the
-! same Goggle (e.g. some results should be favored more than others).
+! want to alter the ranking.
 !
 ! You can also downrank results:
 /r/google/$downrank
 /r/google/$downrank=2
 /r/google/$downrank=3
 
-! Tou can also discard results completely:
+! Or you can discard results completely:
 $discard,site=idontwanttobepartoftheresults.com
 /this/is/spam/$discard
 
 ! Last but not least, you can control exactly how the signals gets prioritized for
 ! the final ranking. We countinously add more signals used during ranking,
 ! but you can e.g. heavily prioritize webpages with a high centrality by specifying
-@host_centrality = 2048
+@host_centrality=2048
 
 ! Or you can boost matches with a specific field with the 'field' prefix e.g
-@field_title = 50
+@field_title=50
 
 ! Individually, each instruction can either target a very narrow set of pages (or
 ! even a single page), or a wider range of them, to apply reranking to a bigger
