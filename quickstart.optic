@@ -160,4 +160,4 @@ Ranking {
 
 // Last but not least, when you have developed your optic it can be installed in Cuely by hosting it somewhere
 // that returns a simple plain-text HTTP response and is publicly available. The optic url can then be added
-// to https://cuely.io/optics and you should be able to use it during search.
+// to https://cuely.io/settings and you should be able to use it during search.
