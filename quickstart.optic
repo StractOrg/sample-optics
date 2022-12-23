@@ -136,23 +136,53 @@ Dislike(Site("w3schools.com"));
 // We have now covered how you can alter the scores of specific search results
 // and indicate which sites you like more than others. While harmonic centrality
 // plays a large role in the final score of a search result, in reality it is
-// actually a weighted sum of a number of signals where harmonic centrality is
-// simply one of them. You can change the coefficient for each of these signals
-// as follows
-Ranking {
-	Signal("bm25"),
-	3
-};
-Ranking {
-	Signal("personal_centrality"),
-	10000
+// actually multi-stage ranking pipeline where each stages conists of a weighted
+// sum of a number of signals where harmonic centrality is simply one of them.
+// You can change the coefficient for each of these signals as follows
+RankingPipeline {
+	Stage {
+		Ranking {
+			Signal("bm25"),
+			3
+		},
+		// You can also boost text-matches at different parts of a page. As an example,
+		// this sets the coefficient for pages where the query matches in the title to
+		// 10:
+		Ranking {
+			Field("title"),
+			10
+		},
+		Ranking {
+			Signal("personal_centrality"),
+			10000
+		}
+	},
+	Stage {
+		Ranking {
+			Signal("bm25"),
+			10
+		}
+	},
+	Stage {
+		Ranking {
+			Signal("prev_score"),
+			2
+		},
+		Ranking {
+			Signal("crossencoder"),
+			10
+		}
+	}
 };
 
 // Note that different signals might be scaled differently based on the nature
 // of how they are calculated, so a higher coefficient does not necesarrily
-// result in a larger influence on the final score. Currently we support the
-// following signals, but since this list is highly dynamic we encourage you to
+// result in a larger influence on the final score. Also, different stages of the
+// pipeline has different signals available. Each stage (except the first) has 
+// a previous score to denote the score calculated from the previous stages
+// Currently we support the following signals, but since this list is highly dynamic we encourage you to
 // consult the source code for the most up-to-date list:
+// Stage 0:
 // - bm25
 // - host_centrality
 // - page_centrality
@@ -165,14 +195,14 @@ Ranking {
 // - topic_centrality
 // - query_centrality
 
+// Stage 1:
+// - bm25
+// - prev_score
 
-// You can also boost text-matches at different parts of a page. As an example,
-// this sets the coefficient for pages where the query matches in the title to
-// 10:
-Ranking {
-	Field("title"),
-	10
-}
+// Stage 2:
+// - crossencoder
+// - prev_score
+
 
 // The current list of supported fields is listed here, but again we encourage
 // you to consult the code for the most up-to-date list:
@@ -193,6 +223,7 @@ Ranking {
 // - host_topic
 // - dmoz_description
 
+// Currently the fields can only be used on the first stage of the ranking pipeline.
 
 // Last but not least, when you have developed your optic it can be installed in
 // Cuely by uploading the Optic to github, and copy the "raw" url into
