@@ -1,8 +1,8 @@
 // You can get syntax highlighting for this file with the following vscode
-// extension: https://marketplace.visualstudio.com/items?itemName=Cuely.Optics
+// extension: https://marketplace.visualstudio.com/items?itemName=Stract.Optics
 
 // Optics is a domain-specific language that lets you write small programs to
-// influence the search results that gets returned to you from Cuely or other
+// influence the search results that gets returned to you from Stract or other
 // search engines which support Optics. The goal of Optics is to give you very
 // fine grained control over your own search experience. Let's see how this is
 // done.
@@ -107,7 +107,7 @@ DiscardNonMatching;
 // guaranteed to be trustworthy but might just be the best websites at link
 // building.
 
-// At Cuely we use a similar link based metric called Harmonic Centrality. It is
+// At Stract we use a similar link based metric called Harmonic Centrality. It is
 // calculated by taking the sum of the inverse distances from all other websites
 // to a particular website. Imagine site A links to B that then links to C. This
 // gives the following normalized centralities
@@ -124,7 +124,7 @@ DiscardNonMatching;
 // that has a short distance from your liked sites and a long distance from your
 // disliked sites will be heavily prioritized in your search results. This is
 // the same thing that happens whenever you like a search result directly in
-// Cuely.
+// Stract.
 Like(Site("news.ycombinator.com"));
 Dislike(Site("w3schools.com"));
 
@@ -226,9 +226,9 @@ RankingPipeline {
 // Currently the fields can only be used on the first stage of the ranking pipeline.
 
 // Last but not least, when you have developed your optic it can be installed in
-// Cuely by uploading the Optic to github, and copy the "raw" url into
-// https://cuely.io/settings. E.g. the url for this Optic is
-// "https://raw.githubusercontent.com/Cuely/sample-optics/main/quickstart.optic"
+// Stract by uploading the Optic to github, and copy the "raw" url into
+// https://trystract.com/settings. E.g. the url for this Optic is
+// "https://raw.githubusercontent.com/Stract/sample-optics/main/quickstart.optic"
 
 // Alternatively you can host it anywhere that returns a simple plain-text HTTP
 // response and is publicly available.
