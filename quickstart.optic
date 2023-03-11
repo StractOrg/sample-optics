@@ -124,7 +124,7 @@ DiscardNonMatching;
 // that has a short distance from your liked sites and a long distance from your
 // disliked sites will be heavily prioritized in your search results. This is
 // the same thing that happens whenever you like a search result directly in
-// Stract.
+// the Stract UI.
 Like(Site("news.ycombinator.com"));
 Dislike(Site("w3schools.com"));
 
@@ -132,58 +132,38 @@ Dislike(Site("w3schools.com"));
 // `Like(Site("..."))` and `Dislike(Site("..."))`. The special tokens "*" and
 // "|" will not work here.
 
-
 // We have now covered how you can alter the scores of specific search results
 // and indicate which sites you like more than others. While harmonic centrality
 // plays a large role in the final score of a search result, in reality it is
-// actually multi-stage ranking pipeline where each stages conists of a weighted
-// sum of a number of signals where harmonic centrality is simply one of them.
-// You can change the coefficient for each of these signals as follows
-RankingPipeline {
-	Stage {
-		Ranking {
-			Signal("bm25"),
-			3
-		},
-		// You can also boost text-matches at different parts of a page. As an example,
-		// this sets the coefficient for pages where the query matches in the title to
-		// 10:
-		Ranking {
-			Field("title"),
-			10
-		},
-		Ranking {
-			Signal("personal_centrality"),
-			10000
-		}
-	},
-	Stage {
-		Ranking {
-			Signal("bm25"),
-			10
-		}
-	},
-	Stage {
-		Ranking {
-			Signal("prev_score"),
-			2
-		},
-		Ranking {
-			Signal("crossencoder"),
-			10
-		}
-	}
-};
+// actually multiple signals that gets combined to determine the final score for
+// each search result. Using the `Ranking` block you can choose to boost
+// specific signals. For example, this will the title text signal (bm25_title)
+// and personal centrality by a factor of 10.
+Ranking(Signal("bm25_title"), 10);
+Ranking(Signal("personal_centrality"), 10);
 
 // Note that different signals might be scaled differently based on the nature
 // of how they are calculated, so a higher coefficient does not necesarrily
-// result in a larger influence on the final score. Also, different stages of the
-// pipeline has different signals available. Each stage (except the first) has 
-// a previous score to denote the score calculated from the previous stages
+// result in a larger influence on the final score.
 // Currently we support the following signals, but since this list is highly dynamic we encourage you to
-// consult the source code for the most up-to-date list:
-// Stage 0:
+// consult the source code for the most up-to-date list and to see how each signal is calculated:
 // - bm25
+// - bm25_title
+// - bm25_clean_body
+// - bm25_stemmed_title
+// - bm25_stemmed_clean_body
+// - bm25_all_body
+// - bm25_url
+// - bm25_site
+// - bm25_domain
+// - bm25_site_no_tokenizer
+// - bm25_domain_no_tokenizer
+// - bm25_domain_if_homepage
+// - bm25_domain_name_if_homepage_no_tokenizer
+// - bm25_title_if_homepage
+// - bm25_backlink_text
+// - bm25_description
+// - cross_encoder
 // - host_centrality
 // - page_centrality
 // - is_homepage
@@ -194,36 +174,14 @@ RankingPipeline {
 // - personal_centrality
 // - topic_centrality
 // - query_centrality
+// - inbound_similarity
+// - crawl_stability
+// - lambda_mart
 
-// Stage 1:
-// - bm25
-// - prev_score
+// Changing the ranking is considered an advanced feature and should only be used
+// if you know what you are doing. The ranking signal are also updated frequently
+// and might change in the future without much notice.
 
-// Stage 2:
-// - crossencoder
-// - prev_score
-
-
-// The current list of supported fields is listed here, but again we encourage
-// you to consult the code for the most up-to-date list:
-// - title
-// - body
-// - url
-// - site,
-// - backlink_text,
-// - stemmed_title
-// - stemmed_body
-// - domain
-// - domain_if_homepage
-// - primary_image_uuid
-// - domain_name_if_homepage_no_tokenizer
-// - description
-// - all_body
-// - title_if_homepage
-// - host_topic
-// - dmoz_description
-
-// Currently the fields can only be used on the first stage of the ranking pipeline.
 
 // Last but not least, when you have developed your optic it can be installed in
 // Stract by uploading the Optic to github, and copy the "raw" url into
