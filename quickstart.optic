@@ -3,7 +3,7 @@
 
 // Optics is a domain-specific language that lets you write small programs to
 // influence the search results that gets returned to you from Stract or other
-// search engines which support Optics. The goal of Optics is to give you very
+// search engines that supports Optics. The goal of Optics is to give you very
 // fine grained control over your own search experience. Let's see how this is
 // done.
 
@@ -43,8 +43,8 @@ Rule {
 // The second rule matches search results where the pattern matches the url of
 // the result. Both rules specify an action that will be applied to the matching
 // results: the first rule downranks these types of listicles whereas the second
-// rule boosts reddit comments. The action can either be `Action(Boost(<int>))`,
-// `Action(Downrank(<int>))` or `Action(Discard)` to completely discard the
+// rule boosts reddit comments. The action can either be `Action(Boost(<float>))`,
+// `Action(Downrank(<float>))` or `Action(Discard)` to completely discard the
 // result. If no action is specified in a rule it is equivalent to
 // `Action(Boost(1))` which will slightly boost a result.
 
@@ -179,7 +179,7 @@ Ranking(Signal("personal_centrality"), 10);
 // - lambda_mart
 
 // Changing the ranking is considered an advanced feature and should only be used
-// if you know what you are doing. The ranking signal are also updated frequently
+// if you know what you are doing. The ranking signals are also updated frequently
 // and might change in the future without much notice.
 
 
