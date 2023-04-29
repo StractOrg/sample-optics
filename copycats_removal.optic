@@ -2,157 +2,157 @@
 // source: https://raw.githubusercontent.com/arosh/ublacklist-github-translation/master/uBlacklist.txt
 Rule {
 	Matches {
-		Site("bleepcoder.com")
+		Site("|bleepcoder.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubja.com")
+		Site("|githubja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("gitmemory.com")
+		Site("|gitmemory.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("giters.com")
+		Site("|giters.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubmemory.com")
+		Site("|githubmemory.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubmate.com")
+		Site("|githubmate.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("wenyanet.com")
+		Site("|wenyanet.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("issueexplorer.com")
+		Site("|issueexplorer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("opensourcelibs.com")
+		Site("|opensourcelibs.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("awesomeopensource.com")
+		Site("|awesomeopensource.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("findbestopensource.com")
+		Site("|findbestopensource.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubhelp.com")
+		Site("|githubhelp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("golangrepo.com")
+		Site("|golangrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("gitmemory.cn")
+		Site("|gitmemory.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pythonissues.com")
+		Site("|pythonissues.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("reposhub.com")
+		Site("|reposhub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("openprojectrepo.com")
+		Site("|openprojectrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("gitanswer.com")
+		Site("|gitanswer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubplus.com")
+		Site("|githubplus.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pythonrepo.com")
+		Site("|pythonrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("bestofcpp.com")
+		Site("|bestofcpp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("github.innominds.com")
+		Site("|github.innominds.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("higithub.com")
+		Site("|higithub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githublab.com")
+		Site("|githublab.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("githubhot.com")
+		Site("|githubhot.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("issuehint.com")
+		Site("|issuehint.com|")
 	},
 	Action(Discard)
 };
@@ -161,1189 +161,1189 @@ Rule {
 // source: https://raw.githubusercontent.com/arosh/ublacklist-stackoverflow-translation/master/uBlacklist.txt
 Rule {
 	Matches {
-		Site("code-examples.net")
+		Site("|code-examples.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("kotaeta.com")
+		Site("|kotaeta.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("answer-id.com")
+		Site("|answer-id.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("de-vraag.com")
+		Site("|de-vraag.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("code.i-harness.com")
+		Site("|code.i-harness.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("living-sun.com")
+		Site("|living-sun.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.jp")
+		Site("|qastack.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.ru")
+		Site("|qastack.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.it")
+		Site("|qastack.it|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.mx")
+		Site("|qastack.mx|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.com.br")
+		Site("|qastack.com.br|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.info.tr")
+		Site("|qastack.info.tr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.in.th")
+		Site("|qastack.in.th|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.com.de")
+		Site("|qastack.com.de|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.fr")
+		Site("|qastack.fr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.cn")
+		Site("|qastack.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.com.ua")
+		Site("|qastack.com.ua|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.co.in")
+		Site("|qastack.co.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.kr")
+		Site("|qastack.kr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.vn")
+		Site("|qastack.vn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.net.bd")
+		Site("|qastack.net.bd|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qa-stack.pl")
+		Site("|qa-stack.pl|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qastack.id")
+		Site("|qastack.id|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coder.work")
+		Site("|coder.work|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("it-swarm-ja.tech")
+		Site("|it-swarm-ja.tech|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("it-swarm.jp.net")
+		Site("|it-swarm.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("it-swarm-ja.com")
+		Site("|it-swarm-ja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("webdevqa.jp.net")
+		Site("|webdevqa.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("web-dev-qa-db-ja.com")
+		Site("|web-dev-qa-db-ja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("it-swarm-fr.com")
+		Site("|it-swarm-fr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("web-dev-qa-db-fr.com")
+		Site("|web-dev-qa-db-fr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codeflow.site")
+		Site("|codeflow.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codeguides.site")
+		Site("|codeguides.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("overcoder.net")
+		Site("|overcoder.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coderoad.ru")
+		Site("|coderoad.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("javaer101.com")
+		Site("|javaer101.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("voidcc.com")
+		Site("|voidcc.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("siwib.org")
+		Site("|siwib.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("fluffyfables.com")
+		Site("|fluffyfables.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("fixes.pub")
+		Site("|fixes.pub|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("knews.vip")
+		Site("|knews.vip|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("isolution.pro")
+		Site("|isolution.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("uwenku.com")
+		Site("|uwenku.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("athabasca-foto.com")
+		Site("|athabasca-foto.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("zsharp.org")
+		Site("|zsharp.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("projectbackpack.org")
+		Site("|projectbackpack.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("waymanamechurch.org")
+		Site("|waymanamechurch.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("sunflowercreations.org")
+		Site("|sunflowercreations.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("cfadnc.org")
+		Site("|cfadnc.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("fitforlearning.org")
+		Site("|fitforlearning.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("panaindustrial.com")
+		Site("|panaindustrial.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("sierrasummit2005.org")
+		Site("|sierrasummit2005.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("theshuggahpies.com")
+		Site("|theshuggahpies.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pcbconline.org")
+		Site("|pcbconline.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("nuomiphp.com")
+		Site("|nuomiphp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ubuntu.buildwebhost.com")
+		Site("|ubuntu.buildwebhost.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ubuntuaa.com")
+		Site("|ubuntuaa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("debugcn.com")
+		Site("|debugcn.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("sch22.org")
+		Site("|sch22.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("gupgallery.com")
+		Site("|gupgallery.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("amuddycup.com")
+		Site("|amuddycup.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ecnf2016.org")
+		Site("|ecnf2016.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("softwareuser.asklobster.com")
+		Site("|softwareuser.asklobster.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("domainelespailles.net")
+		Site("|domainelespailles.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ec-europe.org")
+		Site("|ec-europe.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pakostnici.com")
+		Site("|pakostnici.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("try2explore.com")
+		Site("|try2explore.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("itectec.com")
+		Site("|itectec.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackovergo.com")
+		Site("|stackovergo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("faithcov.org")
+		Site("|faithcov.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("noblenaz.org")
+		Site("|noblenaz.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("culinarydegree.info")
+		Site("|culinarydegree.info|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qapicks.com")
+		Site("|qapicks.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("narkive.jp")
+		Site("|narkive.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ourladylakes.org")
+		Site("|ourladylakes.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("intellipaat.com")
+		Site("|intellipaat.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("newbedev.com")
+		Site("|newbedev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codenong.com")
+		Site("|codenong.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("routinepanic.com")
+		Site("|routinepanic.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tousu.in")
+		Site("|tousu.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tutorialmore.com")
+		Site("|tutorialmore.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("titanwolf.org")
+		Site("|titanwolf.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coderedirect.com")
+		Site("|coderedirect.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("fullstackuser.com")
+		Site("|fullstackuser.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ostack.cn")
+		Site("|ostack.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("wujigu.com")
+		Site("|wujigu.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("webdevdesigner.com")
+		Site("|webdevdesigner.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ghcc.net")
+		Site("|ghcc.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("developreference.com")
+		Site("|developreference.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("semicolonworld.com")
+		Site("|semicolonworld.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tipsfordev.com")
+		Site("|tipsfordev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qi-u.com")
+		Site("|qi-u.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("xsprogram.com")
+		Site("|xsprogram.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackoom.com")
+		Site("|stackoom.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("cndgn.com")
+		Site("|cndgn.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("generacodice.com")
+		Site("|generacodice.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackfinder.jp.net")
+		Site("|stackfinder.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("uebu-kaihatsu.jp.net")
+		Site("|uebu-kaihatsu.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("sqlite.in")
+		Site("|sqlite.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackguides.com")
+		Site("|stackguides.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("younggeeks.in")
+		Site("|younggeeks.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("answerlib.com")
+		Site("|answerlib.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("edupro.id")
+		Site("|edupro.id|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackfinder.ru")
+		Site("|stackfinder.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("desenv-web-rp.com")
+		Site("|desenv-web-rp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("web-dev-qa-db-pt.com")
+		Site("|web-dev-qa-db-pt.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jscodetips.com")
+		Site("|jscodetips.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("5axxw.com")
+		Site("|5axxw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("question-it.com")
+		Site("|question-it.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codefaq.info")
+		Site("|codefaq.info|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codefaq.ru")
+		Site("|codefaq.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("mediatagtw.com")
+		Site("|mediatagtw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("progi.pro")
+		Site("|progi.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("elfishgene.com")
+		Site("|elfishgene.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("sysadminde.com")
+		Site("|sysadminde.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("answacode.com")
+		Site("|answacode.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ask-dev.ru")
+		Site("|ask-dev.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("arip-photo.org")
+		Site("|arip-photo.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jablogs.com")
+		Site("|jablogs.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jpdebug.com")
+		Site("|jpdebug.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("askcodez.com")
+		Site("|askcodez.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("iquestion.pro")
+		Site("|iquestion.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ntcdoon.org")
+		Site("|ntcdoon.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("programmierfrage.com")
+		Site("|programmierfrage.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("microeducate.tech")
+		Site("|microeducate.tech|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("debugko.com")
+		Site("|debugko.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("devdreamz.com")
+		Site("|devdreamz.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("catwolf.org")
+		Site("|catwolf.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("1r1g.com")
+		Site("|1r1g.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("string.quest")
+		Site("|string.quest|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("reddit.fun")
+		Site("|reddit.fun|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qa.icopy.site")
+		Site("|qa.icopy.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("errorsfixing.com")
+		Site("|errorsfixing.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("syntaxfix.com")
+		Site("|syntaxfix.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codegrepr.com")
+		Site("|codegrepr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("quabr.com")
+		Site("|quabr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("serveanswer.com")
+		Site("|serveanswer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("safehavenpetrescue.org")
+		Site("|safehavenpetrescue.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("cainiaojiaocheng.com")
+		Site("|cainiaojiaocheng.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("linuxfixes.com")
+		Site("|linuxfixes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("it-roy-ru.com")
+		Site("|it-roy-ru.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("web-dev-qa.com")
+		Site("|web-dev-qa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("flutterhq.com")
+		Site("|flutterhq.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("dailydevsblog.com")
+		Site("|dailydevsblog.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("711web.com")
+		Site("|711web.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("binarydevelop.com")
+		Site("|binarydevelop.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("so.muouseo.com")
+		Site("|so.muouseo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coder-solution-es.com")
+		Site("|coder-solution-es.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("peaku.co")
+		Site("|peaku.co|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("learnfk.com")
+		Site("|learnfk.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("solveforum.com")
+		Site("|solveforum.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("edureka.co")
+		Site("|edureka.co|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("itecnote.com")
+		Site("|itecnote.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tagsqa.com")
+		Site("|tagsqa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("faqcode4u.com")
+		Site("|faqcode4u.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("digitrain.ru")
+		Site("|digitrain.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("prograide.com")
+		Site("|prograide.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("dovov.com")
+		Site("|dovov.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("oomake.com")
+		Site("|oomake.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ajaxhispano.com")
+		Site("|ajaxhispano.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codebaoku.com")
+		Site("|codebaoku.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("daplus.net")
+		Site("|daplus.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("questu.ru")
+		Site("|questu.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("itranslater.com")
+		Site("|itranslater.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("doraprojects.net")
+		Site("|doraprojects.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("iteramos.com")
+		Site("|iteramos.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("faqcodes.com")
+		Site("|faqcodes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("mejorcodigo.com")
+		Site("|mejorcodigo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("anycodings.com")
+		Site("|anycodings.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("javafixing.com")
+		Site("|javafixing.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("xstack.us")
+		Site("|xstack.us|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("shenghuobao.net")
+		Site("|shenghuobao.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("overstack.in")
+		Site("|overstack.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("zaizhele.cn")
+		Site("|zaizhele.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("zaizhele.net")
+		Site("|zaizhele.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("xstack.ru")
+		Site("|xstack.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("mlink.in")
+		Site("|mlink.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jonic.cn")
+		Site("|jonic.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jike.in")
+		Site("|jike.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("16892.net")
+		Site("|16892.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("vigges.net")
+		Site("|vigges.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("55276.net")
+		Site("|55276.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ogeek.cn")
+		Site("|ogeek.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("shenzhenjia.net")
+		Site("|shenzhenjia.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("shenzhenjia.cn")
+		Site("|shenzhenjia.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("9ishenzhen.com")
+		Site("|9ishenzhen.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("vigge.net")
+		Site("|vigge.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("vigge.cn")
+		Site("|vigge.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("web-dev-qa-db-fra.com")
+		Site("|web-dev-qa-db-fra.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("ape-ask.com")
+		Site("|ape-ask.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("yaoply.com")
+		Site("|yaoply.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("techhelpnotes.com")
+		Site("|techhelpnotes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("wp-qa.com")
+		Site("|wp-qa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("querythreads.com")
+		Site("|querythreads.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("appsloveworld.com")
+		Site("|appsloveworld.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("dtuto.com")
+		Site("|dtuto.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("qatop.pythonwood.com")
+		Site("|qatop.pythonwood.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("webdevask.com")
+		Site("|webdevask.com|")
 	},
 	Action(Discard)
 };
@@ -1353,211 +1353,211 @@ Rule {
 // source: https://raw.githubusercontent.com/stroobants-dev/ublock-origin-shitty-copies-filter/main/combined-list.txt
 Rule {
 	Matches {
-		Site("laravelquestions.com")
+		Site("|laravelquestions.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("py4u.net")
+		Site("|py4u.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("issues-world.com")
+		Site("|issues-world.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("article.docway.net")
+		Site("|article.docway.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("xiu2.net")
+		Site("|xiu2.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codehero.jp")
+		Site("|codehero.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("quabr.com")
+		Site("|quabr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("webdevqa.jp.net")
+		Site("|webdevqa.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("exceptionshub.com")
+		Site("|exceptionshub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pythonwd.com")
+		Site("|pythonwd.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("alwaysemmyhope.com")
+		Site("|alwaysemmyhope.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("pretagteam.com")
+		Site("|pretagteam.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("easysavecode.com")
+		Site("|easysavecode.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackqna.com")
+		Site("|stackqna.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("imtqy.com")
+		Site("|imtqy.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("christfever.in")
+		Site("|christfever.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codersatellite.com")
+		Site("|codersatellite.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coredump.biz")
+		Site("|coredump.biz|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("farath.com")
+		Site("|farath.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("devbugfix.com")
+		Site("|devbugfix.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tech.wayne-chu.com")
+		Site("|tech.wayne-chu.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackify.dev")
+		Site("|stackify.dev|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("webknox.com")
+		Site("|webknox.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("coder-solution-jp.com")
+		Site("|coder-solution-jp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jpndev.com")
+		Site("|jpndev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("python-stack.de")
+		Site("|python-stack.de|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("stackfault.net")
+		Site("|stackfault.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("howtofix.io")
+		Site("|howtofix.io|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("buzzphp.com")
+		Site("|buzzphp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("askdev.vn")
+		Site("|askdev.vn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("quares.ru")
+		Site("|quares.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("examplefiles.net")
+		Site("|examplefiles.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("codewdw.com")
+		Site("|codewdw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("jpcodeqa.com")
+		Site("|jpcodeqa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("tutorialguruji.com")
+		Site("|tutorialguruji.com|")
 	},
 	Action(Discard)
 }
