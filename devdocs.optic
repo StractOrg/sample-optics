@@ -184,3 +184,9 @@ Rule {
         Domain("|typescriptlang.org|")
     }
 };
+
+Rule {
+    Matches {
+        Domain("|devdocs.io|")
+    }
+};
