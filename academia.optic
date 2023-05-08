@@ -1,0 +1,7 @@
+DiscardNonMatching;
+
+Rule {
+    Matches {
+        Site(".edu|")
+    }
+};
