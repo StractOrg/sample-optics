@@ -146,7 +146,8 @@ Ranking(Signal("personal_centrality"), 10);
 // of how they are calculated, so a higher coefficient does not necesarrily
 // result in a larger influence on the final score.
 // Currently we support the following signals, but since this list is highly dynamic we encourage you to
-// consult the source code for the most up-to-date list and to see how each signal is calculated:
+// consult the source code (https://github.com/StractOrg/stract/blob/main/core/src/ranking/signal.rs)
+// for the most up-to-date list and to see how each signal is calculated:
 // - bm25
 // - bm25_title
 // - bm25_clean_body
@@ -186,7 +187,7 @@ Ranking(Signal("personal_centrality"), 10);
 // Last but not least, when you have developed your optic it can be installed in
 // Stract by uploading the Optic to github, and copy the "raw" url into
 // https://trystract.com/settings. E.g. the url for this Optic is
-// "https://raw.githubusercontent.com/Stract/sample-optics/main/quickstart.optic"
+// "https://raw.githubusercontent.com/StractOrg/sample-optics/main/quickstart.optic"
 
 // Alternatively you can host it anywhere that returns a simple plain-text HTTP
 // response and is publicly available.
