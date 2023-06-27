@@ -176,7 +176,6 @@ Ranking(Signal("personal_centrality"), 10);
 // - topic_centrality
 // - query_centrality
 // - inbound_similarity
-// - crawl_stability
 // - lambda_mart
 
 // Changing the ranking is considered an advanced feature and should only be used
