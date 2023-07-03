@@ -43,10 +43,10 @@ Rule {
 // The second rule matches search results where the pattern matches the url of
 // the result. Both rules specify an action that will be applied to the matching
 // results: the first rule downranks these types of listicles whereas the second
-// rule boosts reddit comments. The action can either be `Action(Boost(<float>))`,
-// `Action(Downrank(<float>))` or `Action(Discard)` to completely discard the
-// result. If no action is specified in a rule it is equivalent to
-// `Action(Boost(1))` which will slightly boost a result.
+// rule boosts reddit comments. The action can either be
+// `Action(Boost(<float>))`, `Action(Downrank(<float>))` or `Action(Discard)` to
+// completely discard the result. If no action is specified in a rule it is
+// equivalent to `Action(Boost(1))` which will slightly boost a result.
 
 // You can specify any number of patterns in a `Matches` block. A result will
 // only match if it matches all the patterns in the block. As an example, this
@@ -107,26 +107,36 @@ DiscardNonMatching;
 // guaranteed to be trustworthy but might just be the best websites at link
 // building.
 
-// At Stract we use a similar link based metric called Harmonic Centrality. It is
-// calculated by taking the sum of the inverse distances from all other websites
-// to a particular website. Imagine site A links to B that then links to C. This
-// gives the following normalized centralities
-// A ---> B ---> C
-// 0     0.33   0.5
+// At Stract we use a similar link based metric called Harmonic Centrality. It
+// is calculated by taking the sum of the inverse distances from all other
+// websites to a particular website. Imagine site A links to B that then links
+// to C. This gives the following normalized centralities
+// A ---> B ---> C 
+// 0    0.33    0.5
 
 // While harmonic centrality is believed to be more resistant to link building
-// than PageRank, it is still susceptible to it. Let's now get back from our
-// detour and see what this means for our optics.
+// than PageRank, it is still susceptible to it. Both PageRank, Harmonic
+// centrality and other link based metrics also suffer from the fact that they
+// are not personalized. They create a single global score for each site in the
+// webgraph even though different people might find different sites more
+// trustworthy than others.
 
-// In optics you have the ability to like and dislike sites. We then calculate a
-// harmonic centrality score from all your liked sites, and subtract the
-// harmonic centrality from your disliked sites. What this means is, that sites
-// that has a short distance from your liked sites and a long distance from your
-// disliked sites will be heavily prioritized in your search results. This is
-// the same thing that happens whenever you like a search result directly in
-// the Stract UI.
+//  Let's now get back from our detour and see what this means for our optics.
+
+// In optics you have the ability to like and dislike sites. We then use these
+// sites  This is the same thing that happens whenever you like a search result
+// directly in the Stract UI.
 Like(Site("news.ycombinator.com"));
 Dislike(Site("w3schools.com"));
+
+// We then boost sites that is linked from the same sites as the ones you like,
+// and downrank sites that is linked from the same sites as the ones you
+// dislike. The idea is that if you like site A in the following graph you will
+// probably also like site B since they both have links from site C.
+//    C
+//   / \
+//  v   v
+//  A   B
 
 // One thing to note here is that only simple patterns can be used inside
 // `Like(Site("..."))` and `Dislike(Site("..."))`. The special tokens "*" and
@@ -138,15 +148,17 @@ Dislike(Site("w3schools.com"));
 // actually multiple signals that gets combined to determine the final score for
 // each search result. Using the `Ranking` block you can choose to boost
 // specific signals. For example, this will the title text signal (bm25_title)
-// and personal centrality by a factor of 10.
+// and host centrality (harmonic centrality for site hostnames) by a factor of
+// 10.
 Ranking(Signal("bm25_title"), 10);
-Ranking(Signal("personal_centrality"), 10);
+Ranking(Signal("host_centrality"), 10);
 
 // Note that different signals might be scaled differently based on the nature
 // of how they are calculated, so a higher coefficient does not necesarrily
-// result in a larger influence on the final score.
-// Currently we support the following signals, but since this list is highly dynamic we encourage you to
-// consult the source code (https://github.com/StractOrg/stract/blob/main/core/src/ranking/signal.rs)
+// result in a larger influence on the final score. Currently we support the
+// following signals, but since this list is highly dynamic we encourage you to
+// consult the source code
+// (https://github.com/StractOrg/stract/blob/main/core/src/ranking/signal.rs)
 // for the most up-to-date list and to see how each signal is calculated:
 // - bm25
 // - bm25_title
@@ -166,21 +178,18 @@ Ranking(Signal("personal_centrality"), 10);
 // - bm25_description
 // - cross_encoder
 // - host_centrality
-// - page_centrality
 // - is_homepage
 // - fetch_time_ms
 // - update_timestamp
 // - tracker_score
 // - region
-// - personal_centrality
-// - topic_centrality
 // - query_centrality
 // - inbound_similarity
 // - lambda_mart
 
-// Changing the ranking is considered an advanced feature and should only be used
-// if you know what you are doing. The ranking signals are also updated frequently
-// and might change in the future without much notice.
+// Changing the ranking is considered an advanced feature and should only be
+// used if you know what you are doing. The ranking signals are updated
+// frequently and might change in the future without much notice.
 
 
 // Last but not least, when you have developed your optic it can be installed in
