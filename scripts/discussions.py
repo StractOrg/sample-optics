@@ -18,7 +18,8 @@ urls = [instance.split("](")[1][:-1] for instance in instances]
 def rule(url):
     s = """Rule {{
     Matches {{
-        Url("|{0}/post/")
+        Site("|{0}|"),
+        Url("post"),
     }}
 }};""".format(
         url
