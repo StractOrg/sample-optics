@@ -1,6 +1,13 @@
 DiscardNonMatching;
 Rule {
         Matches {
+            MicroformatTag("|h-*")
+        },
+        Action(Boost(0))
+};
+
+Rule {
+        Matches {
             Site("|overcomingbias.com|")
         },
         Action(Boost(0))
