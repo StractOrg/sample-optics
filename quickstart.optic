@@ -194,7 +194,7 @@ Ranking(Signal("host_centrality"), 10);
 
 // Last but not least, when you have developed your optic it can be installed in
 // Stract by uploading the Optic to github, and copy the "raw" url into
-// https://trystract.com/settings. E.g. the url for this Optic is
+// https://trystract.com/settings/optics. E.g. the url for this Optic is
 // "https://raw.githubusercontent.com/StractOrg/sample-optics/main/quickstart.optic"
 
 // Alternatively you can host it anywhere that returns a simple plain-text HTTP
