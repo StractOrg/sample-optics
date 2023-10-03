@@ -1,7 +1,7 @@
 DiscardNonMatching;
 Rule {
         Matches {
-            MicroformatTag("|h-*")
+            MicroformatTag("|h-entry|")
         },
         Action(Boost(0))
 };
