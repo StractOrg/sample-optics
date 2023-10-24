@@ -44,7 +44,7 @@ Rule {
 
 Rule {
     Matches {
-        Domain("reddit.com"),
+        Domain("|reddit.com|"),
         Url("comments"),
     }
 };
