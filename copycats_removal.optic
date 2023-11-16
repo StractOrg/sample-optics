@@ -2,157 +2,157 @@
 // source: https://raw.githubusercontent.com/arosh/ublacklist-github-translation/master/uBlacklist.txt
 Rule {
 	Matches {
-		Site("|bleepcoder.com|")
+		Domain("|bleepcoder.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubja.com|")
+		Domain("|githubja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|gitmemory.com|")
+		Domain("|gitmemory.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|giters.com|")
+		Domain("|giters.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubmemory.com|")
+		Domain("|githubmemory.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubmate.com|")
+		Domain("|githubmate.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|wenyanet.com|")
+		Domain("|wenyanet.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|issueexplorer.com|")
+		Domain("|issueexplorer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|opensourcelibs.com|")
+		Domain("|opensourcelibs.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|awesomeopensource.com|")
+		Domain("|awesomeopensource.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|findbestopensource.com|")
+		Domain("|findbestopensource.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubhelp.com|")
+		Domain("|githubhelp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|golangrepo.com|")
+		Domain("|golangrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|gitmemory.cn|")
+		Domain("|gitmemory.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pythonissues.com|")
+		Domain("|pythonissues.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|reposhub.com|")
+		Domain("|reposhub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|openprojectrepo.com|")
+		Domain("|openprojectrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|gitanswer.com|")
+		Domain("|gitanswer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubplus.com|")
+		Domain("|githubplus.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pythonrepo.com|")
+		Domain("|pythonrepo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|bestofcpp.com|")
+		Domain("|bestofcpp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|github.innominds.com|")
+		Domain("|github.innominds.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|higithub.com|")
+		Domain("|higithub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githublab.com|")
+		Domain("|githublab.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|githubhot.com|")
+		Domain("|githubhot.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|issuehint.com|")
+		Domain("|issuehint.com|")
 	},
 	Action(Discard)
 };
@@ -161,1189 +161,1189 @@ Rule {
 // source: https://raw.githubusercontent.com/arosh/ublacklist-stackoverflow-translation/master/uBlacklist.txt
 Rule {
 	Matches {
-		Site("|code-examples.net|")
+		Domain("|code-examples.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|kotaeta.com|")
+		Domain("|kotaeta.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|answer-id.com|")
+		Domain("|answer-id.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|de-vraag.com|")
+		Domain("|de-vraag.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|code.i-harness.com|")
+		Domain("|code.i-harness.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|living-sun.com|")
+		Domain("|living-sun.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.jp|")
+		Domain("|qastack.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.ru|")
+		Domain("|qastack.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.it|")
+		Domain("|qastack.it|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.mx|")
+		Domain("|qastack.mx|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.com.br|")
+		Domain("|qastack.com.br|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.info.tr|")
+		Domain("|qastack.info.tr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.in.th|")
+		Domain("|qastack.in.th|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.com.de|")
+		Domain("|qastack.com.de|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.fr|")
+		Domain("|qastack.fr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.cn|")
+		Domain("|qastack.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.com.ua|")
+		Domain("|qastack.com.ua|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.co.in|")
+		Domain("|qastack.co.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.kr|")
+		Domain("|qastack.kr|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.vn|")
+		Domain("|qastack.vn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.net.bd|")
+		Domain("|qastack.net.bd|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qa-stack.pl|")
+		Domain("|qa-stack.pl|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qastack.id|")
+		Domain("|qastack.id|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coder.work|")
+		Domain("|coder.work|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|it-swarm-ja.tech|")
+		Domain("|it-swarm-ja.tech|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|it-swarm.jp.net|")
+		Domain("|it-swarm.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|it-swarm-ja.com|")
+		Domain("|it-swarm-ja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|webdevqa.jp.net|")
+		Domain("|webdevqa.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|web-dev-qa-db-ja.com|")
+		Domain("|web-dev-qa-db-ja.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|it-swarm-fr.com|")
+		Domain("|it-swarm-fr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|web-dev-qa-db-fr.com|")
+		Domain("|web-dev-qa-db-fr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codeflow.site|")
+		Domain("|codeflow.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codeguides.site|")
+		Domain("|codeguides.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|overcoder.net|")
+		Domain("|overcoder.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coderoad.ru|")
+		Domain("|coderoad.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|javaer101.com|")
+		Domain("|javaer101.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|voidcc.com|")
+		Domain("|voidcc.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|siwib.org|")
+		Domain("|siwib.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|fluffyfables.com|")
+		Domain("|fluffyfables.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|fixes.pub|")
+		Domain("|fixes.pub|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|knews.vip|")
+		Domain("|knews.vip|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|isolution.pro|")
+		Domain("|isolution.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|uwenku.com|")
+		Domain("|uwenku.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|athabasca-foto.com|")
+		Domain("|athabasca-foto.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|zsharp.org|")
+		Domain("|zsharp.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|projectbackpack.org|")
+		Domain("|projectbackpack.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|waymanamechurch.org|")
+		Domain("|waymanamechurch.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|sunflowercreations.org|")
+		Domain("|sunflowercreations.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|cfadnc.org|")
+		Domain("|cfadnc.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|fitforlearning.org|")
+		Domain("|fitforlearning.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|panaindustrial.com|")
+		Domain("|panaindustrial.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|sierrasummit2005.org|")
+		Domain("|sierrasummit2005.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|theshuggahpies.com|")
+		Domain("|theshuggahpies.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pcbconline.org|")
+		Domain("|pcbconline.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|nuomiphp.com|")
+		Domain("|nuomiphp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ubuntu.buildwebhost.com|")
+		Domain("|ubuntu.buildwebhost.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ubuntuaa.com|")
+		Domain("|ubuntuaa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|debugcn.com|")
+		Domain("|debugcn.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|sch22.org|")
+		Domain("|sch22.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|gupgallery.com|")
+		Domain("|gupgallery.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|amuddycup.com|")
+		Domain("|amuddycup.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ecnf2016.org|")
+		Domain("|ecnf2016.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|softwareuser.asklobster.com|")
+		Domain("|softwareuser.asklobster.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|domainelespailles.net|")
+		Domain("|domainelespailles.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ec-europe.org|")
+		Domain("|ec-europe.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pakostnici.com|")
+		Domain("|pakostnici.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|try2explore.com|")
+		Domain("|try2explore.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|itectec.com|")
+		Domain("|itectec.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackovergo.com|")
+		Domain("|stackovergo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|faithcov.org|")
+		Domain("|faithcov.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|noblenaz.org|")
+		Domain("|noblenaz.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|culinarydegree.info|")
+		Domain("|culinarydegree.info|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qapicks.com|")
+		Domain("|qapicks.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|narkive.jp|")
+		Domain("|narkive.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ourladylakes.org|")
+		Domain("|ourladylakes.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|intellipaat.com|")
+		Domain("|intellipaat.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|newbedev.com|")
+		Domain("|newbedev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codenong.com|")
+		Domain("|codenong.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|routinepanic.com|")
+		Domain("|routinepanic.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tousu.in|")
+		Domain("|tousu.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tutorialmore.com|")
+		Domain("|tutorialmore.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|titanwolf.org|")
+		Domain("|titanwolf.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coderedirect.com|")
+		Domain("|coderedirect.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|fullstackuser.com|")
+		Domain("|fullstackuser.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ostack.cn|")
+		Domain("|ostack.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|wujigu.com|")
+		Domain("|wujigu.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|webdevdesigner.com|")
+		Domain("|webdevdesigner.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ghcc.net|")
+		Domain("|ghcc.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|developreference.com|")
+		Domain("|developreference.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|semicolonworld.com|")
+		Domain("|semicolonworld.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tipsfordev.com|")
+		Domain("|tipsfordev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qi-u.com|")
+		Domain("|qi-u.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|xsprogram.com|")
+		Domain("|xsprogram.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackoom.com|")
+		Domain("|stackoom.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|cndgn.com|")
+		Domain("|cndgn.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|generacodice.com|")
+		Domain("|generacodice.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackfinder.jp.net|")
+		Domain("|stackfinder.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|uebu-kaihatsu.jp.net|")
+		Domain("|uebu-kaihatsu.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|sqlite.in|")
+		Domain("|sqlite.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackguides.com|")
+		Domain("|stackguides.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|younggeeks.in|")
+		Domain("|younggeeks.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|answerlib.com|")
+		Domain("|answerlib.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|edupro.id|")
+		Domain("|edupro.id|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackfinder.ru|")
+		Domain("|stackfinder.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|desenv-web-rp.com|")
+		Domain("|desenv-web-rp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|web-dev-qa-db-pt.com|")
+		Domain("|web-dev-qa-db-pt.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jscodetips.com|")
+		Domain("|jscodetips.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|5axxw.com|")
+		Domain("|5axxw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|question-it.com|")
+		Domain("|question-it.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codefaq.info|")
+		Domain("|codefaq.info|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codefaq.ru|")
+		Domain("|codefaq.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|mediatagtw.com|")
+		Domain("|mediatagtw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|progi.pro|")
+		Domain("|progi.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|elfishgene.com|")
+		Domain("|elfishgene.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|sysadminde.com|")
+		Domain("|sysadminde.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|answacode.com|")
+		Domain("|answacode.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ask-dev.ru|")
+		Domain("|ask-dev.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|arip-photo.org|")
+		Domain("|arip-photo.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jablogs.com|")
+		Domain("|jablogs.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jpdebug.com|")
+		Domain("|jpdebug.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|askcodez.com|")
+		Domain("|askcodez.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|iquestion.pro|")
+		Domain("|iquestion.pro|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ntcdoon.org|")
+		Domain("|ntcdoon.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|programmierfrage.com|")
+		Domain("|programmierfrage.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|microeducate.tech|")
+		Domain("|microeducate.tech|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|debugko.com|")
+		Domain("|debugko.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|devdreamz.com|")
+		Domain("|devdreamz.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|catwolf.org|")
+		Domain("|catwolf.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|1r1g.com|")
+		Domain("|1r1g.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|string.quest|")
+		Domain("|string.quest|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|reddit.fun|")
+		Domain("|reddit.fun|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qa.icopy.site|")
+		Domain("|qa.icopy.site|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|errorsfixing.com|")
+		Domain("|errorsfixing.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|syntaxfix.com|")
+		Domain("|syntaxfix.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codegrepr.com|")
+		Domain("|codegrepr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|quabr.com|")
+		Domain("|quabr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|serveanswer.com|")
+		Domain("|serveanswer.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|safehavenpetrescue.org|")
+		Domain("|safehavenpetrescue.org|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|cainiaojiaocheng.com|")
+		Domain("|cainiaojiaocheng.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|linuxfixes.com|")
+		Domain("|linuxfixes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|it-roy-ru.com|")
+		Domain("|it-roy-ru.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|web-dev-qa.com|")
+		Domain("|web-dev-qa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|flutterhq.com|")
+		Domain("|flutterhq.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|dailydevsblog.com|")
+		Domain("|dailydevsblog.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|711web.com|")
+		Domain("|711web.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|binarydevelop.com|")
+		Domain("|binarydevelop.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|so.muouseo.com|")
+		Domain("|so.muouseo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coder-solution-es.com|")
+		Domain("|coder-solution-es.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|peaku.co|")
+		Domain("|peaku.co|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|learnfk.com|")
+		Domain("|learnfk.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|solveforum.com|")
+		Domain("|solveforum.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|edureka.co|")
+		Domain("|edureka.co|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|itecnote.com|")
+		Domain("|itecnote.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tagsqa.com|")
+		Domain("|tagsqa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|faqcode4u.com|")
+		Domain("|faqcode4u.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|digitrain.ru|")
+		Domain("|digitrain.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|prograide.com|")
+		Domain("|prograide.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|dovov.com|")
+		Domain("|dovov.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|oomake.com|")
+		Domain("|oomake.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ajaxhispano.com|")
+		Domain("|ajaxhispano.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codebaoku.com|")
+		Domain("|codebaoku.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|daplus.net|")
+		Domain("|daplus.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|questu.ru|")
+		Domain("|questu.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|itranslater.com|")
+		Domain("|itranslater.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|doraprojects.net|")
+		Domain("|doraprojects.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|iteramos.com|")
+		Domain("|iteramos.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|faqcodes.com|")
+		Domain("|faqcodes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|mejorcodigo.com|")
+		Domain("|mejorcodigo.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|anycodings.com|")
+		Domain("|anycodings.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|javafixing.com|")
+		Domain("|javafixing.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|xstack.us|")
+		Domain("|xstack.us|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|shenghuobao.net|")
+		Domain("|shenghuobao.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|overstack.in|")
+		Domain("|overstack.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|zaizhele.cn|")
+		Domain("|zaizhele.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|zaizhele.net|")
+		Domain("|zaizhele.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|xstack.ru|")
+		Domain("|xstack.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|mlink.in|")
+		Domain("|mlink.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jonic.cn|")
+		Domain("|jonic.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jike.in|")
+		Domain("|jike.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|16892.net|")
+		Domain("|16892.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|vigges.net|")
+		Domain("|vigges.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|55276.net|")
+		Domain("|55276.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ogeek.cn|")
+		Domain("|ogeek.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|shenzhenjia.net|")
+		Domain("|shenzhenjia.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|shenzhenjia.cn|")
+		Domain("|shenzhenjia.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|9ishenzhen.com|")
+		Domain("|9ishenzhen.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|vigge.net|")
+		Domain("|vigge.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|vigge.cn|")
+		Domain("|vigge.cn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|web-dev-qa-db-fra.com|")
+		Domain("|web-dev-qa-db-fra.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|ape-ask.com|")
+		Domain("|ape-ask.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|yaoply.com|")
+		Domain("|yaoply.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|techhelpnotes.com|")
+		Domain("|techhelpnotes.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|wp-qa.com|")
+		Domain("|wp-qa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|querythreads.com|")
+		Domain("|querythreads.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|appsloveworld.com|")
+		Domain("|appsloveworld.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|dtuto.com|")
+		Domain("|dtuto.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|qatop.pythonwood.com|")
+		Domain("|qatop.pythonwood.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|webdevask.com|")
+		Domain("|webdevask.com|")
 	},
 	Action(Discard)
 };
@@ -1353,211 +1353,211 @@ Rule {
 // source: https://raw.githubusercontent.com/stroobants-dev/ublock-origin-shitty-copies-filter/main/combined-list.txt
 Rule {
 	Matches {
-		Site("|laravelquestions.com|")
+		Domain("|laravelquestions.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|py4u.net|")
+		Domain("|py4u.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|issues-world.com|")
+		Domain("|issues-world.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|article.docway.net|")
+		Domain("|article.docway.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|xiu2.net|")
+		Domain("|xiu2.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codehero.jp|")
+		Domain("|codehero.jp|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|quabr.com|")
+		Domain("|quabr.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|webdevqa.jp.net|")
+		Domain("|webdevqa.jp.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|exceptionshub.com|")
+		Domain("|exceptionshub.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pythonwd.com|")
+		Domain("|pythonwd.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|alwaysemmyhope.com|")
+		Domain("|alwaysemmyhope.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|pretagteam.com|")
+		Domain("|pretagteam.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|easysavecode.com|")
+		Domain("|easysavecode.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackqna.com|")
+		Domain("|stackqna.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|imtqy.com|")
+		Domain("|imtqy.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|christfever.in|")
+		Domain("|christfever.in|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codersatellite.com|")
+		Domain("|codersatellite.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coredump.biz|")
+		Domain("|coredump.biz|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|farath.com|")
+		Domain("|farath.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|devbugfix.com|")
+		Domain("|devbugfix.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tech.wayne-chu.com|")
+		Domain("|tech.wayne-chu.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackify.dev|")
+		Domain("|stackify.dev|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|webknox.com|")
+		Domain("|webknox.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|coder-solution-jp.com|")
+		Domain("|coder-solution-jp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jpndev.com|")
+		Domain("|jpndev.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|python-stack.de|")
+		Domain("|python-stack.de|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|stackfault.net|")
+		Domain("|stackfault.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|howtofix.io|")
+		Domain("|howtofix.io|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|buzzphp.com|")
+		Domain("|buzzphp.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|askdev.vn|")
+		Domain("|askdev.vn|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|quares.ru|")
+		Domain("|quares.ru|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|examplefiles.net|")
+		Domain("|examplefiles.net|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|codewdw.com|")
+		Domain("|codewdw.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|jpcodeqa.com|")
+		Domain("|jpcodeqa.com|")
 	},
 	Action(Discard)
 };
 Rule {
 	Matches {
-		Site("|tutorialguruji.com|")
+		Domain("|tutorialguruji.com|")
 	},
 	Action(Discard)
 }
