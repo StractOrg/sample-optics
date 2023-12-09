@@ -2,11 +2,11 @@ DiscardNonMatching;
 
 // Improve the ranking to be more inclined towards personal sites that
 // are popular on hacker news and has regular posts.
-Like(Site("samaltman.com"));
-Like(Site("paulgraham.com"));
-Like(Site("ciechanow.ski"));
-Like(Site("simonwillison.net"));
-Like(Site("rachelbythebay.com"));
+Like(Domain("samaltman.com"));
+Like(Domain("paulgraham.com"));
+Like(Domain("ciechanow.ski"));
+Like(Domain("simonwillison.net"));
+Like(Domain("rachelbythebay.com"));
 
 /*
 	Boost(0) is a no-op ranking wise, but since we discard all non-matching

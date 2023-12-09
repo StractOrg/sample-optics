@@ -123,23 +123,23 @@ DiscardNonMatching;
 
 //  Let's now get back from our detour and see what this means for our optics.
 
-// In optics you have the ability to like and dislike sites. We then use these
-// sites  This is the same thing that happens whenever you like a search result
+// In optics you have the ability to like and dislike domains. We then use these
+// domains This is the same thing that happens whenever you like a search result
 // directly in the Stract UI.
-Like(Site("news.ycombinator.com"));
-Dislike(Site("w3schools.com"));
+Like(Domain("news.ycombinator.com"));
+Dislike(Domain("w3schools.com"));
 
-// We then boost sites that is linked from the same sites as the ones you like,
-// and downrank sites that is linked from the same sites as the ones you
-// dislike. The idea is that if you like site A in the following graph you will
-// probably also like site B since they both have links from site C.
+// We then boost domains that is linked from the same domains as the ones you like,
+// and downrank domains that is linked from the same domains as the ones you
+// dislike. The idea is that if you like domain A in the following graph you will
+// probably also like domain B since they both have links from domain C.
 //    C
 //   / \
 //  v   v
 //  A   B
 
 // One thing to note here is that only simple patterns can be used inside
-// `Like(Site("..."))` and `Dislike(Site("..."))`. The special tokens "*" and
+// `Like(Domain("..."))` and `Dislike(Domain("..."))`. The special tokens "*" and
 // "|" will not work here.
 
 // We have now covered how you can alter the scores of specific search results
