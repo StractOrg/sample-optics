@@ -147,7 +147,7 @@ Dislike(Site("w3schools.com"));
 // plays a large role in the final score of a search result, in reality it is
 // actually multiple signals that gets combined to determine the final score for
 // each search result. Using the `Ranking` block you can choose to boost
-// specific signals. For example, this will the title text signal (bm25_title)
+// specific signals. For example, this will boost the title text signal (bm25_title)
 // and host centrality (harmonic centrality for site hostnames) by a factor of
 // 10.
 Ranking(Signal("bm25_title"), 10);
