@@ -9,7 +9,7 @@
 
 
 // As you might have guessed, comments can either be line-comments with "//" or
-// block-comments "/* ... */". Optics constists of a sequence of rules where
+// block-comments "/* ... */". Optics consists of a sequence of rules where
 // each rule defines how a particular search result should be altered given that
 // they match the specific rule.
 Rule {
@@ -21,6 +21,9 @@ Rule {
 Rule {
 	Matches {
 		Url("reddit.com/r/*/comments")
+	},
+	Matches {
+		Url("lemmy.world/post/*/comments")
 	},
 	Action(Boost(3))
 };
@@ -41,7 +44,10 @@ Rule {
 // how".
 
 // The second rule matches search results where the pattern matches the url of
-// the result. Both rules specify an action that will be applied to the matching
+// the result. When there are several `Matches` blocks in a rule, the rule is
+// applied if any block matches.
+
+// Both rules specify an action that will be applied to the matching
 // results: the first rule downranks these types of listicles whereas the second
 // rule boosts reddit comments. The action can either be
 // `Action(Boost(<float>))`, `Action(Downrank(<float>))` or `Action(Discard)` to
@@ -86,7 +92,7 @@ Rule {
 // have any special action applied to it and the search result's score would be
 // unaltered. This behaviour can be changed by specifying `DiscardNonMatching`
 DiscardNonMatching;
-// Now all search resuts that does not match any of the specified rules will be
+// Now all search results that does not match any of the specified rules will be
 // discarded.
 
 
@@ -103,7 +109,7 @@ DiscardNonMatching;
 // analyze website links and use this for ranking gave Google way better search
 // results than their competitors. However, websites quickly realized this and
 // started actively building links to their own website, which skews the
-// PageRank metric. In essense, websites with a high PageRank are no longer
+// PageRank metric. In essence, websites with a high PageRank are no longer
 // guaranteed to be trustworthy but might just be the best websites at link
 // building.
 
@@ -154,7 +160,7 @@ Ranking(Signal("bm25_title"), 10);
 Ranking(Signal("host_centrality"), 10);
 
 // Note that different signals might be scaled differently based on the nature
-// of how they are calculated, so a higher coefficient does not necesarrily
+// of how they are calculated, so a higher coefficient does not necessarily
 // result in a larger influence on the final score. Currently we support the
 // following signals, but since this list is highly dynamic we encourage you to
 // consult the source code
@@ -199,3 +205,4 @@ Ranking(Signal("host_centrality"), 10);
 
 // Alternatively you can host it anywhere that returns a simple plain-text HTTP
 // response and is publicly available.
+

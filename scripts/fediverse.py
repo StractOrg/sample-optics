@@ -13,19 +13,17 @@ with open(
 
 def rule(site):
     if site.count(".") > 1:
-        return """Rule {{
+        return """
         Matches {{
             Site("|{0}|")
-        }}
-    }};""".format(
+        }},""".format(
             site
         )
     else:
-        return """Rule {{
+        return """
         Matches {{
             Domain("|{0}|")
-        }}
-    }};""".format(
+        }},""".format(
             site
         )
 
@@ -35,6 +33,8 @@ optic = """DiscardNonMatching;
 """
 
 optic += "// source of fediverse sites: https://nodes.fediverse.party/nodes.json\n"
-optic += "\n\n".join([rule(site) for site in sites])
+optic += "Rule {"
+optic += "".join([rule(site) for site in sites])
+optic += "\n};"
 
 print(optic)
