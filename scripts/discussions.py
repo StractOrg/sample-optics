@@ -17,11 +17,10 @@ sites = [url.split("//")[1].split("/")[0] for url in urls]
 
 
 def rule(site):
-    s = """Rule {{
+    s = """
     Matches {{
         Site("|{0}|")
-    }}
-}};""".format(
+    }},""".format(
         site
     )
 
@@ -54,6 +53,7 @@ Rule {
 optic += (
     "// source of instances: https://github.com/maltfield/awesome-lemmy-instances\n"
 )
-optic += "\n\n".join([rule(site) for site in sites])
-
+optic += "Rule {"
+optic += "".join([rule(site) for site in sites])
+optic += "\n};"
 print(optic)
