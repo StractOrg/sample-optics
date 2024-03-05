@@ -52,7 +52,7 @@ Rule {
 // rule boosts reddit comments. The action can either be
 // `Action(Boost(<float>))`, `Action(Downrank(<float>))` or `Action(Discard)` to
 // completely discard the result. If no action is specified in a rule it is
-// equivalent to `Action(Boost(1))` which will slightly boost a result.
+// equivalent to `Action(Boost(0))` which doesn't change the score of the result.
 
 // You can specify any number of patterns in a `Matches` block. A result will
 // only match if it matches all the patterns in the block. As an example, this
