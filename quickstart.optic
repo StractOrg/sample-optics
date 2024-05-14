@@ -148,56 +148,6 @@ Dislike(Site("w3schools.com"));
 // `Like(Site("..."))` and `Dislike(Site("..."))`. The special tokens "*" and
 // "|" will not work here.
 
-// We have now covered how you can alter the scores of specific search results
-// and indicate which sites you like more than others. While harmonic centrality
-// plays a large role in the final score of a search result, in reality it is
-// actually multiple signals that gets combined to determine the final score for
-// each search result. Using the `Ranking` block you can choose to boost
-// specific signals. For example, this will boost the title text signal (bm25_title)
-// and host centrality (harmonic centrality for site hostnames) by a factor of
-// 10.
-Ranking(Signal("bm25_title"), 10);
-Ranking(Signal("host_centrality"), 10);
-
-// Note that different signals might be scaled differently based on the nature
-// of how they are calculated, so a higher coefficient does not necessarily
-// result in a larger influence on the final score. Currently we support the
-// following signals, but since this list is highly dynamic we encourage you to
-// consult the source code
-// (https://github.com/StractOrg/stract/blob/main/core/src/ranking/signal.rs)
-// for the most up-to-date list and to see how each signal is calculated:
-// - bm25
-// - bm25_title
-// - bm25_clean_body
-// - bm25_stemmed_title
-// - bm25_stemmed_clean_body
-// - bm25_all_body
-// - bm25_url
-// - bm25_site
-// - bm25_domain
-// - bm25_site_no_tokenizer
-// - bm25_domain_no_tokenizer
-// - bm25_domain_if_homepage
-// - bm25_domain_name_if_homepage_no_tokenizer
-// - bm25_title_if_homepage
-// - bm25_backlink_text
-// - bm25_description
-// - cross_encoder
-// - host_centrality
-// - is_homepage
-// - fetch_time_ms
-// - update_timestamp
-// - tracker_score
-// - region
-// - query_centrality
-// - inbound_similarity
-// - lambda_mart
-
-// Changing the ranking is considered an advanced feature and should only be
-// used if you know what you are doing. The ranking signals are updated
-// frequently and might change in the future without much notice.
-
-
 // Last but not least, when you have developed your optic it can be installed in
 // Stract by uploading the Optic to github, and copy the "raw" url into
 // https://stract.com/settings/optics. E.g. the url for this Optic is
