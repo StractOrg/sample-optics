@@ -98,5 +98,12 @@ Rule {
     },
     Matches {
         Domain("|devdocs.io|")
+    },
+    Matches { // VS Code internal api for extension developers
+        Site("|code.visualstudio.com|"),
+        Url("api")
+    },
+    Matches { // Microsoft APIs and languages 
+        Site("|learn.microsoft.com|")
     }
 };
