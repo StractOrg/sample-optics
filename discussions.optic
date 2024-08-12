@@ -2,12 +2,6 @@ DiscardNonMatching;
 
 Rule {
     Matches {
-        Schema("QAPage"),
-    }
-};
-
-Rule {
-    Matches {
         Schema("DiscussionForumPosting"),
     }
 };

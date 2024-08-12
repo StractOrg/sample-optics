@@ -3,6 +3,6 @@ DiscardNonMatching;
 
 Rule {
     Matches {
-        Url("~")
+        Url("/~")
     }
 };
