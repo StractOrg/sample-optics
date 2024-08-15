@@ -13,34 +13,57 @@ Rule {
     }
 };
 
+Rule {
+    Matches {
+        Schema("QAPage"),
+        Domain("|superuser.com|")
+    },
+    Matches {
+        Schema("QAPage"),
+        Domain("|serverfault.com|")
+    },
+    Matches {
+        Schema("QAPage"),
+        Domain("|askubuntu.com|")
+    },
+    Matches {
+        Schema("QAPage"),
+        Domain("|stackoverflow.com|")
+    },
+    Matches {
+        Schema("QAPage"),
+        Domain("|stackexchange.com|")
+    },
+};
+
 // source of instances: https://github.com/maltfield/awesome-lemmy-instances
 Rule {
     Matches {
-        Site("|lemmy.world|")
+        Domain("|lemmy.world|")
     },
     Matches {
-        Site("|lemmy.ml|")
+        Domain("|lemmy.ml|")
     },
     Matches {
-        Site("|feddit.de|")
+        Domain("|feddit.de|")
     },
     Matches {
         Site("|sh.itjust.works|")
     },
     Matches {
-        Site("|lemmy.one|")
+        Domain("|lemmy.one|")
     },
     Matches {
-        Site("|lemmynsfw.com|")
+        Domain("|lemmynsfw.com|")
     },
     Matches {
-        Site("|lemmy.ca|")
+        Domain("|lemmy.ca|")
     },
     Matches {
         Site("|lemmy.fmhy.ml|")
     },
     Matches {
-        Site("|lemm.ee|")
+        Domain("|lemm.ee|")
     },
     Matches {
         Site("|lemmy.blahaj.zone|")
@@ -49,13 +72,13 @@ Rule {
         Site("|lemmy.dbzer0.com|")
     },
     Matches {
-        Site("|lemmygrad.ml|")
+        Domain("|lemmygrad.ml|")
     },
     Matches {
-        Site("|programming.dev|")
+        Domain("|programming.dev|")
     },
     Matches {
-        Site("|sopuli.xyz|")
+        Domain("|sopuli.xyz|")
     },
     Matches {
         Site("|discuss.tchncs.de|")
@@ -64,82 +87,82 @@ Rule {
         Site("|lemmy.sdf.org|")
     },
     Matches {
-        Site("|vlemmy.net|")
+        Domain("|vlemmy.net|")
     },
     Matches {
-        Site("|aussie.zone|")
+        Domain("|aussie.zone|")
     },
     Matches {
-        Site("|feddit.uk|")
+        Domain("|feddit.uk|")
     },
     Matches {
-        Site("|startrek.website|")
+        Domain("|startrek.website|")
     },
     Matches {
-        Site("|dormi.zone|")
+        Domain("|dormi.zone|")
     },
     Matches {
-        Site("|feddit.it|")
+        Domain("|feddit.it|")
     },
     Matches {
-        Site("|infosec.pub|")
+        Domain("|infosec.pub|")
     },
     Matches {
-        Site("|pawb.social|")
+        Domain("|pawb.social|")
     },
     Matches {
-        Site("|feddit.nl|")
+        Domain("|feddit.nl|")
     },
     Matches {
         Site("|lemmy.burger.rodeo|")
     },
     Matches {
-        Site("|burggit.moe|")
+        Domain("|burggit.moe|")
     },
     Matches {
-        Site("|slrpnk.net|")
+        Domain("|slrpnk.net|")
     },
     Matches {
-        Site("|feddit.dk|")
+        Domain("|feddit.dk|")
     },
     Matches {
-        Site("|lemmy.nz|")
+        Domain("|lemmy.nz|")
     },
     Matches {
-        Site("|mander.xyz|")
+        Domain("|mander.xyz|")
     },
     Matches {
-        Site("|feddit.cl|")
+        Domain("|feddit.cl|")
     },
     Matches {
-        Site("|reddthat.com|")
+        Domain("|reddthat.com|")
     },
     Matches {
-        Site("|lemmy.zip|")
+        Domain("|lemmy.zip|")
     },
     Matches {
         Site("|latte.isnot.coffee|")
     },
     Matches {
-        Site("|szmer.info|")
+        Domain("|szmer.info|")
     },
     Matches {
-        Site("|dataterm.digital|")
+        Domain("|dataterm.digital|")
     },
     Matches {
-        Site("|exploding-heads.com|")
+        Domain("|exploding-heads.com|")
     },
     Matches {
-        Site("|pathofexile-discuss.com|")
+        Domain("|pathofexile-discuss.com|")
     },
     Matches {
-        Site("|monyet.cc|")
+        Domain("|monyet.cc|")
     },
     Matches {
-        Site("|iusearchlinux.fyi|")
+        Domain("|iusearchlinux.fyi|")
     },
     Matches {
-        Site("|yiffit.net|")
+        Domain("|yiffit.net|")
     },
     Matches {
         Site("|sub.wetshaving.social|")
