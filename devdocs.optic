@@ -103,7 +103,19 @@ Rule {
         Site("|code.visualstudio.com|"),
         Url("api")
     },
-    Matches { // Microsoft APIs and languages 
+    Matches { // Microsoft APIs and languages
         Site("|learn.microsoft.com|")
+    },
+    Matches {
+        Site("|docs.saltproject.io|")
+    },
+    Matches {
+        Site("|developer.hashicorp.com|")
+    },
+    Matches {
+        Domain("|go.dev|")
+    },
+    Matches {
+        Site("|docs.docker.com|")
     }
 };
