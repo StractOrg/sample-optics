@@ -117,5 +117,8 @@ Rule {
     },
     Matches {
         Site("|docs.docker.com|")
-    }
+    },
+    Matches {
+        Domain("|svelte.dev|")
+    },
 };
